@@ -1,0 +1,190 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('../img/dashboard.jpg') center center no-repeat;
+    height: 100%;
+    background-size: 100%;
+}
+
+body .logo {
+    background: #84858a;
+    height: 32px;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body .logo p {
+    color: #e8e8e7;
+    font-size: 14px;
+    margin-right: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body .logo img {
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.setting.active {
+    display: block;
+}
+
+.setting {
+    background: #f5f4f3;
+    margin-top: 3%;
+    margin-left: 80px;
+    max-width: 700px;
+    border-radius: 8px;
+    display: none;
+}
+
+.setting .upBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 2px solid #cdcccb;
+    align-items: center;
+    
+}
+
+.setting .upBlock .search input {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    border: 1px solid #e9e8e7;
+    border-radius: 5px;
+    padding: 6px 10px;
+
+}
+
+.setting .upBlock .icons {
+    margin-left: 29px;
+}
+
+.setting .upBlock .search {
+    margin-right: 16px;
+}
+
+.setting .upBlock p {
+    color: #3f3f3e;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.setting .icons i.fa.fa-circle.red {
+    color: #ef6251;
+}
+
+.setting .icons i.fa.fa-circle.orange {
+    color: #f5b93b;
+}
+.setting .icons i.fa.fa-circle.white {
+    color: #d7d6d5;
+}
+
+.setting .backgroundOne {
+    background-color: #f0efee;
+    padding: 35px 18px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.setting .backgroundTwo {
+    background-color: #e8e8e7;
+    padding: 70px 90px;
+    border-radius: 5px;
+}
+
+.setting .pictures {
+   max-width: 580px;
+   height: 238px;
+   overflow-y: auto;
+   background-color: #ffffff ;
+   padding-top: 15px;
+}
+.setting .pictures img {
+    max-width: 100px;
+    height: 68px;  
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px; 
+    padding: 2px;
+}
+
+.setting .pictures img.active {
+    border: 3px solid #535353;
+    border-radius: 8px;
+}
+  
+#pictures::-webkit-scrollbar {
+    width: 10px;
+}
+  
+#pictures::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
+
+#pictures::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: RGBA(176,176,176,0.8);
+    padding: 8px 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.navBar .icon:hover {
+    cursor: pointer;
+}
+
+.navBar img {
+    max-width: 65px;
+    margin-right: 20px;
+}
+
+.navBar img:hover {
+    transform: scale(1.4);
+}
+
+.navBar .icon.basket {
+    border-left: 1px solid #000000;
+}
+
+.navBar .icon.basket img {
+    margin-left: 25px;
+}
+
+.navBar .icon.email {
+    position: relative;
+}
+
+.navBar .icon.email span {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #cb2f2f;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
